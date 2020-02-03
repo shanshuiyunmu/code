@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\pe">
+      <UniqueIdentifier>{77413c5d-efa5-495b-b61b-6eab2a69756d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\process">
+      <UniqueIdentifier>{8209f207-6ff2-4815-9fe9-9f87233e27a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\md5">
+      <UniqueIdentifier>{ab3cfab4-c94e-4726-8fff-2533b65cd3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\socket">
+      <UniqueIdentifier>{52eaae46-a7dd-4735-9314-b1287c550489}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tabkongjian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tabkongjianDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMytab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyClear.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyKillVirus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyDeskWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMySoftware.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMydelay.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="PE.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTls.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyReloc.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyRes.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="peGuiDlg.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CImport.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CExport.h">
+      <Filter>头文件\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyList.h">
+      <Filter>头文件\process</Filter>
+    </ClInclude>
+    <ClInclude Include="processDlg.h">
+      <Filter>头文件\process</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyModule.h">
+      <Filter>头文件\process</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyThread.h">
+      <Filter>头文件\process</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyFileInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5file.h">
+      <Filter>头文件\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5global.h">
+      <Filter>头文件\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="CMySocket.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tabkongjian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabkongjianDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMytab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyClear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyKillVirus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyDeskWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMySoftware.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="peGuiDlg.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CMydelay.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="PE.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CImport.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTls.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyReloc.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyRes.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CExport.cpp">
+      <Filter>头文件\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyList.cpp">
+      <Filter>头文件\process</Filter>
+    </ClCompile>
+    <ClCompile Include="processDlg.cpp">
+      <Filter>头文件\process</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyModule.cpp">
+      <Filter>头文件\process</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyThread.cpp">
+      <Filter>头文件\process</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyFileInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5file.cpp">
+      <Filter>头文件\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>头文件\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="CMySocket.cpp">
+      <Filter>头文件\socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tabkongjian.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tabkongjian.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tabkongjian.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
